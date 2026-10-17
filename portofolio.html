@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Sirojul Munir, web developer dan mahasiswa Sistem Informasi, Fakultas Ilmu Komputer, Universitas Pamulang Serang, semester 5.">
+    <title>Sirojul Munir | Web Developer &amp; Mahasiswa UNPAM</title>
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGASI ===== -->
+    <header class="navbar">
+        <div class="container">
+            <a class="logo" href="#beranda">Beranda</a>
+            <nav class="nav-links" aria-label="Navigasi utama">
+                <a href="#tentang">Tentang</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#proyek">Proyek</a>
+                <a href="#pendidikan">Pendidikan</a>
+                <a href="#jadwal">Jadwal</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="beranda">
+            <div class="container">
+                <div>
+                    <span class="hero-status">Mahasiswa aktif, semester 5</span>
+                    <h1>Saya Sirojul Munir, web developer dan mahasiswa UNPAM.</h1>
+                    <p>Mahasiswa Sistem Informasi, Fakultas Ilmu Komputer, Universitas Pamulang Serang, kelas 05SISE005. Saya membangun website dengan HTML, CSS, dan JavaScript.</p>
+                    <div class="btn-row">
+                        <a class="btn btn-primary" href="#proyek">Lihat proyek</a>
+                        <a class="btn btn-outline" href="#kontak">Hubungi saya</a>
+                    </div>
+                </div>
+
+                <div class="code-window" aria-label="Ringkasan profil dalam bentuk kode">
+                    <div class="code-bar"><i></i><i></i><i></i><span>profil.js</span></div>
+<pre><code><span class="k">const</span> <span class="p">mahasiswa</span> = {
+  nama: <span class="s">"Sirojul Munir"</span>,
+  kampus: <span class="s">"UNPAM Serang"</span>,
+  fakultas: <span class="s">"Ilmu Komputer"</span>,
+  jurusan: <span class="s">"Sistem Informasi"</span>,
+  kelas: <span class="s">"05SISE005"</span>,
+  semester: <span class="n">5</span>,
+  peran: <span class="s">"Web Developer"</span>,
+  stack: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>],
+  belajar: <span class="k">true</span>,
+};
+
+<span class="c">// terus membangun, satu halaman per halaman</span></code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== STATISTIK ===== -->
+        <section class="stats" aria-label="Ringkasan">
+            <div class="container">
+                <div class="stat"><strong>Semester 5</strong><span>Tingkat 3</span></div>
+                <div class="stat"><strong>05SISE005</strong><span>Kelas</span></div>
+                <div class="stat"><strong>11 SKS</strong><span>5 mata kuliah</span></div>
+                <div class="stat"><strong>3 bahasa web</strong><span>HTML, CSS, JavaScript</span></div>
+            </div>
+        </section>
+
+        <!-- ===== TENTANG ===== -->
+        <section class="section section-white" id="tentang">
+            <div class="container">
+                <h2 class="section-title">Tentang saya</h2>
+
+                <div class="about">
+                    <div class="photo-frame">
+                        <img src="images/profil baru.png" alt="Foto Sirojul Munir"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="photo-fallback">SM</div>
+                    </div>
+
+                    <div class="about-text">
+                        <p>Halo, saya <strong>Sirojul Munir</strong>, mahasiswa Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Pamulang Serang. Saya tertarik pada teknologi informasi, terutama pengembangan website.</p>
+                        <p>Saat ini saya memperdalam HTML, CSS, dan pemrograman web lewat mata kuliah Pemrograman Web 1 dan Rekayasa Web, sambil membuat proyek sendiri untuk berlatih.</p>
+
+                        <div class="facts">
+                            <div class="fact"><small>jurusan</small><strong>Sistem Informasi</strong></div>
+                            <div class="fact"><small>fakultas</small><strong>Fakultas Ilmu Komputer</strong></div>
+                            <div class="fact"><small>kampus</small><strong>Universitas Pamulang Serang</strong></div>
+                            <div class="fact"><small>kelas</small><strong>05SISE005</strong></div>
+                            <div class="fact"><small>tingkat</small><strong>Tingkat 3, semester 5</strong></div>
+                            <div class="fact"><small>domisili</small><strong>Rangkasbitung, Banten</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== KEAHLIAN ===== -->
+        <section class="section" id="keahlian">
+            <div class="container">
+                <h2 class="section-title">Keahlian</h2>
+                <p class="section-sub">Tiga bahasa dasar web yang sedang saya latih setiap minggu.</p>
+
+                <div class="skill-grid">
+                    <article class="skill-card">
+                        <span class="skill-tag">&lt;html&gt;</span>
+                        <h3>HTML</h3>
+                        <p>Menyusun struktur halaman: judul, tabel, form, gambar, dan video.</p>
+                        <div class="bar"><span style="width: 75%;"></span></div>
+                        <span class="bar-label">Cukup nyaman</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-tag">{ css }</span>
+                        <h3>CSS</h3>
+                        <p>Mengatur warna, tata letak flexbox dan grid, serta tampilan responsif.</p>
+                        <div class="bar"><span style="width: 65%;"></span></div>
+                        <span class="bar-label">Sedang berkembang</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-tag">js()</span>
+                        <h3>JavaScript</h3>
+                        <p>Menambahkan interaksi sederhana pada halaman web.</p>
+                        <div class="bar"><span style="width: 35%;"></span></div>
+                        <span class="bar-label">Tahap belajar</span>
+                    </article>
+                </div>
+
+                <div class="chips">
+                    <span class="chip">Web Development</span>
+                    <span class="chip">UI/UX</span>
+                    <span class="chip">Sistem Informasi</span>
+                    <span class="chip">Responsive Design</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROYEK ===== -->
+        <section class="section section-white" id="proyek">
+            <div class="container">
+                <h2 class="section-title">Proyek</h2>
+                <p class="section-sub">Website yang saya bangun selama kuliah. Klik kartu untuk membukanya.</p>
+
+                <div class="project-grid">
+                    <a class="project" href="index.html">
+                        <div class="project-top">proyek-01/portfolio</div>
+                        <div class="project-body">
+                            <h3>Website Portfolio Mahasiswa</h3>
+                            <p>Portfolio pribadi berisi profil, galeri foto, dan video kegiatan.</p>
+                            <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span></div>
+                        </div>
+                    </a>
+
+                    <a class="project" href="jadwal.html">
+                        <div class="project-top">proyek-02/jadwal</div>
+                        <div class="project-body">
+                            <h3>Website Jadwal Kuliah</h3>
+                            <p>Informasi mata kuliah dan SKS semester 5 dalam tabel responsif.</p>
+                            <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span></div>
+                        </div>
+                    </a>
+
+                    <div class="project project-next">
+                        <div class="project-top">proyek-03/segera</div>
+                        <div class="project-body">
+                            <h3>Proyek berikutnya</h3>
+                            <p>Sedang dikembangkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PENDIDIKAN ===== -->
+        <section class="section" id="pendidikan">
+            <div class="container">
+                <h2 class="section-title">Riwayat pendidikan</h2>
+                <p class="section-sub">Dari sekolah dasar sampai perguruan tinggi.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-year">2011 – 2017</span>
+                        <h3>SDN 1 Girilaya</h3>
+                        <p>Sekolah Dasar</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">2017 – 2020</span>
+                        <h3>SMPN 2 Cipanas</h3>
+                        <p>Sekolah Menengah Pertama</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">2020 – 2023</span>
+                        <h3>MA Al-Qornis</h3>
+                        <p>Madrasah Aliyah</p>
+                    </div>
+                    <div class="timeline-item now">
+                        <span class="timeline-year">2024 – sekarang</span>
+                        <h3>Universitas Pamulang (UNPAM)</h3>
+                        <p>Fakultas Ilmu Komputer, Sistem Informasi, kelas 05SISE005, semester 5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== JADWAL ===== -->
+        <section class="section section-white" id="jadwal">
+            <div class="container">
+                <h2 class="section-title">Jadwal kuliah semester 5</h2>
+                <p class="section-sub">Lima mata kuliah yang saya ambil semester ini, semuanya online.</p>
+
+                <div class="table-wrap">
+                    <table>
+                        <caption class="sr-only" style="display:none;">Jadwal kuliah semester 5</caption>
+                        <thead>
+                            <tr>
+                                <th class="center" scope="col">No</th>
+                                <th scope="col">Mata kuliah</th>
+                                <th class="center" scope="col">SKS</th>
+                                <th scope="col">Jadwal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="center">1</td><th scope="row">Pemrograman Web 1</th><td class="center">3</td><td><span class="status-online">Online</span></td></tr>
+                            <tr><td class="center">2</td><th scope="row">Manajemen Sains</th><td class="center">2</td><td><span class="status-online">Online</span></td></tr>
+                            <tr><td class="center">3</td><th scope="row">Interaksi Manusia dan Komputer</th><td class="center">2</td><td><span class="status-online">Online</span></td></tr>
+                            <tr><td class="center">4</td><th scope="row">Rekayasa Web</th><td class="center">2</td><td><span class="status-online">Online</span></td></tr>
+                            <tr><td class="center">5</td><th scope="row">Kewirausahaan</th><td class="center">2</td><td><span class="status-online">Online</span></td></tr>
+                        </tbody>
+                        <tfoot>
+                            <tr><th colspan="2" scope="row">Total SKS</th><td class="center">11</td><td></td></tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== KONTAK ===== -->
+        <section class="section" id="kontak">
+            <div class="container">
+                <div class="contact">
+                    <div>
+                        <h2>Mari terhubung</h2>
+                        <p>Punya pertanyaan, ide proyek, atau ingin berdiskusi soal web? Kirim pesan kapan saja.</p>
+                    </div>
+                    <div class="contact-list">
+                        <a href="mailto:sintebanten@gmail.com"><small>email</small><span>sintebanten@gmail.com</span></a>
+                        <a href="https://wa.me/6281995338465" target="_blank" rel="noopener"><small>whatsapp</small><span>081995338465</span></a>
+                        <a href="https://www.instagram.com/ssirojulmunirr" target="_blank" rel="noopener"><small>instagram</small><span>@ssirojulmunirr</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p><strong>Sirojul Munir</strong> &bull; Sistem Informasi, Fakultas Ilmu Komputer, Universitas Pamulang Serang</p>
+        <p>&copy; 2026 Sirojul Munir. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Tombol kembali ke beranda -->
+    <a class="to-top" href="#beranda" aria-label="Kembali ke beranda">&#8593; Kembali ke beranda</a>
+
+</body>
+</html>
